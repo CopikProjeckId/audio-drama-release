@@ -1,0 +1,3 @@
+# 릴리즈 파일은 GitHub Releases 에 첨부한다 — 저장소에 exe 를 넣지 않는다
+*.exe
+*.blockmap
