@@ -35,10 +35,15 @@ Copyright (c) 2026 NINEBIX (주식회사 나인빅스). All rights reserved.
 4. 서드파티 구성요소
    본 프로그램에는 FFmpeg(GPL v3), Supertonic 3 모델(OpenRAIL-M), Python, Electron, Chromium,
    Black Han Sans(SIL OFL) 등 제3자 구성요소가 동봉되며 각각 자체 라이선스를 따릅니다.
-   선택 음성 엔진 Qwen3-TTS(Apache-2.0)와 PyTorch(BSD-3)는 동봉되지 않고, 사용자가 설정에서 켤 때
-   각 배포처(python.org, PyPI, Hugging Face)에서 내려받습니다.
+   선택 AI 음성 엔진 — Qwen3-TTS(Apache-2.0), PyTorch(BSD-3) — 는 동봉되지 않고,
+   사용자가 설정에서 켤 때 각 배포처(python.org, PyPI, Hugging Face)에서 내려받습니다. 이 엔진은
+   NVIDIA GPU(VRAM 6GB 이상)를 권장하며 GPU 가 없으면 CPU 로 매우 느리게 동작합니다.
    해당 구성요소에 대해서는 위 2항의 제한이 적용되지 않고 각 라이선스가 우선합니다.
    목록과 소스 코드 출처는 THIRD_PARTY_NOTICES.md 를 참고하세요.
+
+   효과음은 사용자가 발급한 Freesound.org API 키로 검색·다운로드되며 각 음원의 라이선스(CC0 또는 CC BY)를
+   따릅니다. CC BY 음원을 사용한 경우 프로그램이 만들어 주는 크레딧 파일의 출처를 영상에 표기할 책임은
+   사용자에게 있습니다.
 
 5. 데이터
    본 프로그램은 API 키와 산출물을 사용자 컴퓨터(%APPDATA%\audio-drama)에만 저장하며,

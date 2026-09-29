@@ -14,6 +14,7 @@
 | playwright-core, express, better-sqlite3, zod, dotenv | 서버 | Apache-2.0 / MIT | 각 패키지 `package.json` |
 | Black Han Sans | 썸네일 제목 서체 | SIL Open Font License 1.1 (`assets/fonts/OFL-BlackHanSans.txt`) | https://github.com/zesstype/Black-Han-Sans |
 | Qwen3-TTS (모델 `Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign`, `Qwen/Qwen3-TTS-12Hz-0.6B-Base` + `qwen-tts` 패키지) | 선택 음성 엔진 — **동봉되지 않음**, 설정에서 켤 때 Hugging Face/PyPI 에서 다운로드 | Apache-2.0 | https://github.com/QwenLM/Qwen3-TTS |
+| Freesound.org 효과음 | 렌더 시 사용자의 API 키로 검색·다운로드 — **동봉되지 않음** | 음원별 CC0 (기본) / CC BY (선택 — 크레딧 파일 자동 생성) | https://freesound.org · https://freesound.org/help/faq/#licenses |
 | PyTorch / torchaudio | Qwen3-TTS 런타임 — 동봉되지 않음, 선택 설치 시 다운로드 | BSD-3-Clause | https://pytorch.org |
 | Microsoft Visual C++ 재배포 DLL | Python 확장 로드 | Microsoft 재배포 허용 런타임 | https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist |
 
