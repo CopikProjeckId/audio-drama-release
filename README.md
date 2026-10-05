@@ -5,6 +5,10 @@
 <h1 align="center">NINEBIX 오디오 드라마 스튜디오</h1>
 
 <p align="center">
+  <b>한국어</b> · <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   사연 한 줄 → 시니어 감성 썰 드라마 영상 한 편. 대본·나레이션·삽화·자막·썸네일·유튜브 업로드 패키지까지 <b>버튼 하나로 자동 생성</b>하는 Windows 프로그램.<br>
   <b>무료 · 설치 파일 하나 · 사전 설치 없음</b><br>
   <sub>무료판 최신은 <b>v0.9.0</b> 입니다(기능은 v0.8.23 과 같고 화면만 새로). 새 기능 개발은 <a href="#강의판-ninebix-유튜브-스튜디오">강의판(NINEBIX 유튜브 스튜디오)</a>으로 이어집니다.</sub>
